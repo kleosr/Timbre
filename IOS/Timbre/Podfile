@@ -1,0 +1,47 @@
+platform :ios, '14.0'
+
+target 'Timbre' do
+  use_frameworks!
+
+  # UI
+  pod 'SnapKit', '~> 5.6.0'
+  
+  # Voice Recognition
+  pod 'Speech'
+  
+  # Natural Language Processing
+  pod 'NaturalLanguage'
+  
+  # Networking
+  pod 'Alamofire', '~> 5.6.4'
+  
+  # JSON Parsing
+  pod 'SwiftyJSON', '~> 5.0.1'
+  
+  # Reactive Programming
+  pod 'RxSwift', '~> 6.5.0'
+  pod 'RxCocoa', '~> 6.5.0'
+  
+  # Location Services
+  pod 'CoreLocation'
+  pod 'MapKit'
+  
+  # Authentication
+  pod 'Firebase/Auth'
+  
+  # Database
+  pod 'RealmSwift', '~> 10.38.0'
+  
+  # Async Tasks
+  pod 'PromiseKit', '~> 6.18.1'
+  
+  target 'TimbreTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'TimbreUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+end 
