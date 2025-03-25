@@ -2,6 +2,10 @@
 
 Timbre is a mobile application that allows users to speak instructions to create micro-services (micro-MCPs) on the fly. These micro-services are registered, discoverable, and capable of collaborating with other services.
 
+Shoutout to: []
+1. SoMaCoSF [https://forum.cursor.com/u/SoMaCoSF/summary]
+2. T1000 [https://forum.cursor.com/u/T1000/profile-hidden]
+
 ## Features
 
 - Voice-activated creation of micro-services
